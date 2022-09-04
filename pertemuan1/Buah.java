@@ -1,4 +1,4 @@
-public class Buah {
+public class Buah{
     String ukuran,warna;
     int berat;
 
@@ -8,19 +8,25 @@ public class Buah {
         Buah mangga = new Buah();
         apel.warna = "merah";
         apel.ukuran = "sedang";
+        apel.berat = 200;
         pisang.warna = "kuning";
         pisang.ukuran = "besar";
+        pisang.berat = 300;
         mangga.warna = "hijau kekuningan";
         mangga.ukuran = "kecil";
+        mangga.berat = 100;
 
-        System.out.println("Apel");
-        System.out.println(apel.warna);
-        System.out.println(apel.ukuran);
+        System.out.println("\nApel");
+        System.out.println("\twarna :"+apel.warna);
+        System.out.println("\tukuran:"+apel.ukuran);
+        System.out.println("\tberat :"+apel.berat+" gr\n");
         System.out.println("Pisang");
-        System.out.println(pisang.warna);
-        System.out.println(pisang.ukuran);
+        System.out.println("\twarna :"+pisang.warna);
+        System.out.println("\tukuran:"+pisang.ukuran);
+        System.out.println("\tberat :"+pisang.berat+" gr\n");
         System.out.println("Mangga");
-        System.out.println(mangga.warna);
-        System.out.println(mangga.ukuran);
+        System.out.println("\twarna :"+mangga.warna);
+        System.out.println("\tukuran:"+mangga.ukuran);
+        System.out.println("\tberat :"+mangga.berat+" gr\n");
     }
 }
